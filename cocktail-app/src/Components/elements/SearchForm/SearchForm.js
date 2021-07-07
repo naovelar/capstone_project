@@ -57,7 +57,7 @@ export const SearchForm = ({ setSearchTerm }) => {
             id="searchInput"
             className={classes.input}
             placeholder="search"
-            inputProps={{ 'aria-label': 'Seacrh cocktails' }}
+            inputProps={{ 'aria-label': 'Search cocktails' }}
             onChange={searchCocktail}
             inputRef={searchValue}
             startAdornment={<InputAdornment position="start"><SearchIcon color="primary" /></InputAdornment>}
